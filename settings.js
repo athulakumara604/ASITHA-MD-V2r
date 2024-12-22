@@ -4,7 +4,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID === undefined ? '𝙰𝚂𝙸𝚃𝙷𝙰-𝙼𝙳=Lywg1RID#Vq7lF01AVJnAtl3cn7vGZPEhmqSK5I043Y1DYKA8cjI' : process.env.SESSION_ID,
+SESSION_ID: process.env.SESSION_ID === undefined ? '𝙰𝚂𝙸𝚃𝙷𝙰-𝙼𝙳=vy4WEIRa#I5U7SckbvdxDVWf4KRM9GBPof-6p5vysvsJD90zZCZE' : process.env.SESSION_ID,
 PREFIX: process.env.PREFIX || '.' ,
 PREFIX: process.env.PORT || '8001' 
 ALIVE_MSG: process.env.ALIVE_MSG === undefined ? "*Hello , I am alive now!!*" : process.env.ALIVE_MSG,
